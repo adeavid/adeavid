@@ -47,13 +47,3 @@
 - 🟦 <b>TypeScript</b> & <b>Node.js</b> (Fullstack JS/TS)
 - ☁️ <b>Cloud Native</b> (CI/CD, DevOps, Security)
 
-
----
-
-<p align="center">
-	<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400" alt="Hacker" />
-</p>
-
-<p align="center">
-	<b>Welcome to the hacker zone!<br>Building the future, one line of code at a time.</b>
-</p>
