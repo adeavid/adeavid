@@ -1,16 +1,59 @@
-## Hi there 👋
 
-<!--
-**adeavid/adeavid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<p align="center">
+	<img src="https://img.shields.io/badge/license-MIT-green" alt="License" />
+	<img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h1 align="center">🚀 adeavid: Full Stack Hacker Playground 🚀</h1>
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" height="60" alt="React" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original-wordmark.svg" height="60" alt="FastAPI" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" height="60" alt="Docker" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" height="60" alt="Kubernetes" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" height="60" alt="PostgreSQL" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" height="60" alt="MongoDB" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rabbitmq/rabbitmq-original-wordmark.svg" height="60" alt="RabbitMQ" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" height="60" alt="Solidity" />
+	<img src="https://cryptologos.cc/logos/solana-sol-logo.svg?v=032" height="60" alt="Solana" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="60" alt="TypeScript" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" height="60" alt="Python" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" height="60" alt="Node.js" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain-wordmark.svg" height="60" alt="GraphQL" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" height="60" alt="Redis" />
+	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" height="60" alt="Linux" />
+</p>
+
+---
+
+<p align="center">
+	<b>Microservices | Web3 | Crypto | Blockchain | Cloud Native | DevOps | APIs | Data Engineering | CI/CD | Security</b>
+</p>
+
+---
+
+## 🦾 Main Stack
+
+- ⚛️ <b>React</b> (Modern frontend)
+- 🐍 <b>FastAPI</b> (Ultra-fast Python APIs)
+- 🐳 <b>Docker</b> & ☸️ <b>Kubernetes</b> (Containers & cloud orchestration)
+- 🐘 <b>PostgreSQL</b> & 🍃 <b>MongoDB</b> (SQL & NoSQL databases)
+- 🐇 <b>RabbitMQ</b> & <b>Redis</b> (Messaging & caching)
+- 🦾 <b>Microservices</b> (Scalable architecture)
+- 🟪 <b>Solana</b> & <b>Solidity</b> (Smart contracts, Web3, Crypto)
+- 🟣 <b>GraphQL</b> (Modern APIs)
+- 🐧 <b>Linux</b> (Automation & scripting)
+- 🟦 <b>TypeScript</b> & <b>Node.js</b> (Fullstack JS/TS)
+- ☁️ <b>Cloud Native</b> (CI/CD, DevOps, Security)
+
+
+---
+
+<p align="center">
+	<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400" alt="Hacker" />
+</p>
+
+<p align="center">
+	<b>Welcome to the hacker zone!<br>Building the future, one line of code at a time.</b>
+</p>
