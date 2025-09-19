@@ -5,7 +5,7 @@
 	<img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build" />
 </p>
 
-<h1 align="center">🚀 adeavid: Full Stack Hacker Playground 🚀</h1>
+<h1 align="center">Andres: Full Stack</h1>
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" height="60" alt="React" />
