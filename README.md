@@ -33,17 +33,17 @@
 
 ---
 
-## 🦾 Main Stack
+##  Main Stack
 
-- ⚛️ <b>React</b> (Modern frontend)
-- 🐍 <b>FastAPI</b> (Ultra-fast Python APIs)
-- 🐳 <b>Docker</b> & ☸️ <b>Kubernetes</b> (Containers & cloud orchestration)
-- 🐘 <b>PostgreSQL</b> & 🍃 <b>MongoDB</b> (SQL & NoSQL databases)
-- 🐇 <b>RabbitMQ</b> & <b>Redis</b> (Messaging & caching)
-- 🦾 <b>Microservices</b> (Scalable architecture)
-- 🟪 <b>Solana</b> & <b>Solidity</b> (Smart contracts, Web3, Crypto)
-- 🟣 <b>GraphQL</b> (Modern APIs)
-- 🐧 <b>Linux</b> (Automation & scripting)
-- 🟦 <b>TypeScript</b> & <b>Node.js</b> (Fullstack JS/TS)
-- ☁️ <b>Cloud Native</b> (CI/CD, DevOps, Security)
+- <b>React</b> (Modern frontend)
+- <b>FastAPI</b> (Ultra-fast Python APIs)
+- <b>Docker</b> & ☸️ <b>Kubernetes</b> (Containers & cloud orchestration)
+- <b>PostgreSQL</b> & 🍃 <b>MongoDB</b> (SQL & NoSQL databases)
+- <b>RabbitMQ</b> & <b>Redis</b> (Messaging & caching)
+- <b>Microservices</b> (Scalable architecture)
+- <b>Solana</b> & <b>Solidity</b> (Smart contracts, Web3, Crypto)
+- <b>GraphQL</b> (Modern APIs)
+- <b>Linux</b> (Automation & scripting)
+- <b>TypeScript</b> & <b>Node.js</b> (Fullstack JS/TS)
+- <b>Cloud Native</b> (CI/CD, DevOps, Security)
 
