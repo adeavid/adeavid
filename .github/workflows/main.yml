@@ -28,7 +28,7 @@ jobs:
           sudo systemctl enable docker
           sudo usermod -aG docker $USER
 
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.33
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -82,7 +82,7 @@ jobs:
             owner, collaborator, organization_member
           plugin_repositories_skipped: ""
           plugin_repositories_ignored: ""
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.33
         with:
           filename: metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
