@@ -1,0 +1,108 @@
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+---
+name: Metrics
+on:
+  # Schedule updates (every 48 hours)
+  schedule:
+    - cron: "0 0 */2 * *"
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push:
+    branches: ["master", "main"]
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Install required dependencies
+      - name: Install dependencies
+        run: |
+          # Remove conflicting containerd packages before installing docker.io
+          sudo apt-get remove -y containerd containerd.io docker-ce \
+            docker-ce-cli docker.io runc || true
+          sudo apt-get autoremove -y || true
+          sudo apt-get update
+          sudo apt-get install -y docker.io jq
+          sudo systemctl start docker
+          sudo systemctl enable docker
+          sudo usermod -aG docker $USER
+
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include
+          #                   private repositories)
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: adeavid
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: true
+          repositories_affiliations: >-
+            owner, collaborator, organization_member
+          config_timezone: UTC
+          config_display: large
+          config_animations: true
+          config_base64: false
+          config_padding: 6%
+          # Additional safety configurations
+          repositories_forks: false
+          repositories_contributed_to: true
+          # Defensive configurations to prevent null/undefined errors
+          repositories_skipped: ""
+          users_ignored: ""
+          commits_authoring: >-
+            (.user // {}) | if .login then .login else empty end,
+            (.user // {}) | if .name then .name else empty end,
+            (.user // {}) | if .email then .email else empty end
+          # ISO Calendar plugin with defensive settings
+          plugin_isocalendar: true
+          plugin_isocalendar_duration: half-year
+          # Lines plugin with defensive configurations
+          plugin_lines: true
+          plugin_lines_history_limit: 10
+          plugin_lines_repositories_limit: 40
+          plugin_lines_sections: base
+          plugin_lines_skipped: ""
+          plugin_lines_ignored_repositories: ""
+          # Repositories plugin with safer configurations
+          plugin_repositories: true
+          plugin_repositories_order: featured, pinned, starred, random
+          plugin_repositories_random: 5
+          plugin_repositories_starred: 11
+          plugin_repositories_affiliations: >-
+            owner, collaborator, organization_member
+          plugin_repositories_skipped: ""
+          plugin_repositories_ignored: ""
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.facts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: adeavid
+          base: ""
+          # Defensive configurations to prevent null/undefined errors
+          config_timezone: UTC
+          config_display: large
+          config_animations: true
+          config_base64: false
+          repositories_skipped: ""
+          users_ignored: ""
+          commits_authoring: >-
+            (.user // {}) | if .login then .login else empty end,
+            (.user // {}) | if .name then .name else empty end,
+            (.user // {}) | if .email then .email else empty end
+          # Habits plugin with defensive settings
+          plugin_habits: true
+          plugin_habits_facts: true
+          plugin_habits_charts: true
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_trim: false
