@@ -1,4 +1,4 @@
-![Abstract graphite banner](assets/profile-banner.png)
+![Abstract graphite banner](assets/profile-banner-6x1.png)
 
 # Andres
 
