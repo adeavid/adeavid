@@ -1,3 +1,5 @@
+![Abstract graphite banner](assets/profile-banner.png)
+
 # Andres
 
 Software engineer working on backend systems and AI infrastructure.
