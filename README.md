@@ -1,7 +1,6 @@
-# andres
+# Andres
 
-full-stack engineer focused on cloud-native systems and web3.
+Software engineer working on backend systems and AI infrastructure.
 
-stack: react, typescript, node.js, python, fastapi, postgresql, docker, kubernetes, graphql, solana
-
-![Metrics](./github-metrics.svg)
+Interested in reliable execution, isolation, and understanding
+how systems behave when things go wrong.
